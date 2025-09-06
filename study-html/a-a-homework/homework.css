@@ -1,0 +1,80 @@
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px;
+    background-color: rgb(249, 246, 242);
+}
+
+.favicon {
+    width: 80px;
+    margin: auto;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    margin: auto;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+
+button {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.main-nav {
+    padding: 10px 0;
+    background-color: rgb(249, 246, 242);
+    align-items: center;
+    margin: auto 80px;    
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    color:  black;
+    font-size: 15px;
+}
+
+#show-detail {
+    color: orange;
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 7px 30px;
+    margin: 30px 0 0 200px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;   
+    margin-left: 200px;
+}
+
+.banner-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px -20px;
+}
+
+.image{
+    margin-left: -150px;
+}

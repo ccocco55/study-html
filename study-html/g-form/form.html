@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 태그</title>
+</head>
+<body>
+    <form>
+            <input
+                type="text"
+                name="userId"
+                placeholder="아이디를 작성해주세요."
+                value="hds"
+                required
+            />
+            <input
+                type="password"
+                name="userPassword"
+                placeholder="비밀번호를 입력해주세요."
+            />
+            <fieldset>
+                <legend>성별</legend>
+                <label>
+                    <input type="radio" name="gender" value="선택 안함" /> 선택
+                    안함
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="여자" /> 여자
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="남자" /> 남자
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>취미</legend>
+                <label
+                    ><input type="checkbox" name="hobby" value="영화감상" />
+                    영화 감상</label
+                >
+                <label
+                    ><input type="checkbox" name="hobby" value="골프" />
+                    골프</label
+                >
+                <label
+                    ><input type="checkbox" name="hobby" value="볼링" />
+                    볼링</label
+                >
+                <label
+                    ><input type="checkbox" name="hobby" value="기타" />
+                    기타</label
+                >
+                <label
+                    ><input type="checkbox" name="hobby" value="테니스" />
+                    테니스</label
+                >
+                <label
+                    ><input type="checkbox" name="hobby" value="산책" />
+                    산책</label
+                >
+                <label
+                    ><input type="checkbox" name="hobby" value="연애" />
+                    연애</label
+                >
+                <label
+                    ><input type="checkbox" name="hobby" value="게임" />
+                    게임</label
+                >
+                <label
+                    ><input type="checkbox" name="hobby" value="등산" />
+                    등산</label
+                >
+                <label
+                    ><input type="checkbox" name="hobby" value="축구" />
+                    축구</label
+                >
+                <label
+                    ><input type="checkbox" name="hobby" value="노래" />
+                    노래</label
+                >
+            </fieldset>
+
+            <div>
+                <input type="date" name="birth" />
+            </div>
+
+            <div><input type="datetime-local" name="book" /></div>
+
+            <div>
+                <select name="major">
+                    <option value="" selected>학과 선택</option>
+                    <option value="computer">컴퓨터공학과</option>
+                    <option value="model">모델학과</option>
+                    <option value="nurse">간호학과</option>
+                    <option value="music">실용음악과</option>
+                    <option value="mechanic">기계공학과</option>
+                    <option value="messcom">신문방송학과</option>
+                    <option value="management">경영학과</option>
+                </select>
+            </div>
+            <div>
+                <textarea name="intro" cols="30" rows="3">안녕</textarea>
+            </div>
+            <label for="file">
+                <div style="cursor: pointer;"><img src="images/add.png" width="100px"></div>
+            </label>
+            <input id="file" type="file" style="display: none;"/>
+            <input type="button" value="눌러도 아무것도 안해요!" />
+            <button type="button">눌러도 아무것도 안해요!</button>
+            <button>전송</button>
+        </form>
+</body>
+</html>
